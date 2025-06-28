@@ -1,0 +1,13 @@
+Model,Type,Accuracy,Precision,Recall,F1-Score
+nb,Retrieval,1.0,1.0,1.0,1.0
+tfidf,Retrieval,1.0,1.0,1.0,1.0
+bert,Retrieval,1.0,1.0,1.0,1.0
+bm25,Retrieval,1.0,1.0,1.0,1.0
+nb_weighted,Prediction,1.0,1.0,1.0,1.0
+nb_majority,Prediction,0.6666666666666666,1.0,0.6666666666666666,0.8
+tfidf_weighted,Prediction,1.0,1.0,1.0,1.0
+tfidf_majority,Prediction,0.6666666666666666,1.0,0.6666666666666666,0.8
+bert_weighted,Prediction,0.8888888888888888,1.0,0.8888888888888888,0.9411764705882353
+bert_majority,Prediction,0.8888888888888888,1.0,0.8888888888888888,0.9411764705882353
+bm25_weighted,Prediction,0.8888888888888888,1.0,0.8888888888888888,0.9411764705882353
+bm25_majority,Prediction,0.7777777777777778,1.0,0.7777777777777778,0.875

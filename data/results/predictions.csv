@@ -1,0 +1,6 @@
+query_id,predicted_solution,top_5_case_ids
+1,penjara 3,"64,5,66,70,17"
+2,penjara 3,"82,75,28,76,14"
+3,penjara 1,"60,53,18,63,39"
+4,penjara 2,"6,30,8,76,80"
+5,penjara 2,"32,6,80,50,30"

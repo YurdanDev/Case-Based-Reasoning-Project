@@ -1,0 +1,38 @@
+[
+  {
+    "query": "nyata dakwa ramadan als bukti cara yakin salah laku tindak pidana terangterangan tenaga sama laku keras hadap orang luka bagaimana dakwa primair tuntut umum jatuh pidana hadap dakwa pidana penjara lama 3 tiga tahun tetap masa tahan jalan dakwa kurang seluruh pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu potong kaos lengan pendek warna putih gambar depan rampas musnah tetap dakwa bayar biaya perkara jumlah rp500000 lima ribu rupiah",
+    "ground_truth": "penjara 3",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa desten michael purba alias jesten sebut atas bukti cara yakin salah laku tindak pidana cara bersamasama laku aniaya bagaimana dakwa alternatif jatuh pidana hadap dakwa pidana penjara lama 8 delapan bulan tetap masa tangkap tahan jalan dakwa kurang seluruh lama pidana jatuh tetap dakwa tetap tahan tetap barang bukti nihil beban biaya perkara dakwa jumlah rp700000 tujuh ribu rupiah",
+    "ground_truth": "penjara 8",
+    "predicted": "penjara 3",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa patuan hutapea sebut bukti cara yakin salah laku tindak pidana aniaya bagaimana dakwa tunggal tuntut umum jatuh pidana hadap dakwa patuan hutapea sebut pidana penjara lama 2 tahun tetap masa tangkap tahan jalan dakwa kurang seluruh pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu buah gunting milik gagang warna silver rampas musnah beban dakwa bayar biaya perkara besar rp 5000 lima ribu rupiah",
+    "ground_truth": "penjara 2",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa muhammad yudistira alias disti sebut atas bukti cara yakin salah laku tindak pidana aniaya akibat mati bagaimana dakwaanpertama jatuh pidana hadap dakwa pidana penjara lama 10 puluh tahun tetap masa tangkap tahan jalan dakwa kurang seluruh lama pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu buah senjata tajan jenis celurit gagang solasiban warna hitam 1 satu buah baju kaos warna hitam 1 satu buah celana pendek rampas musnah beban dakwa bayar biaya perkara jumlah rp300000 tiga ribu rupiah",
+    "ground_truth": "penjara 10",
+    "predicted": "penjara 2",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa mhd reno ginting bukti cara yakin salah laku tindak pidana muka umum lisan hasut laku buat pidana bagaimana atur ancam pidana pasal 160 kuhpidana dakwa alternatif satu jatuh pidana dakwa mhd reno ginting pidana penjara lama 2 tahun tetap masa tangkap masa tahan jalan dakwa kurang seluruh pidana jatuh tetap dakwa tetap tahan perintah barang bukti upa 1 satu bilah parang gagang besi musnah 6 beban dakwa bayar biaya perkara jumlah rp5000 lima ribu rupiah",
+    "ground_truth": "penjara 2",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa syahruddin harahap als sapar sebut atas bukti cara yakin salah laku tindak pidana aniaya bagaimana dakwaantunggal jatuh pidana hadap dakwa pidana penjara lama 2 tahun tetap masa tangkap tahan jalan dakwa kurang seluruh lama pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu buah kayu panjang 40 cm rampas musnah beban dakwa bayar biaya perkara jumlah rp 200000 ribu rupiah",
+    "ground_truth": "penjara 2",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  }
+]

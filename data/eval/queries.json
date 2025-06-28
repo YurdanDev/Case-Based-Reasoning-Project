@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Terdakwa melakukan penganiayaan yang menyebabkan luka",
+    "ground_truth": 7
+  },
+  {
+    "query": "Terdakwa bersama-sama melakukan kekerasan terhadap orang di muka umum",
+    "ground_truth": 6
+  },
+  {
+    "query": "Terdakwa melakukan penganiayaan berat yang mengakibatkan luka berat",
+    "ground_truth": 14
+  },
+  {
+    "query": "Terdakwa turut serta dalam penganiayaan secara bersama-sama",
+    "ground_truth": 5
+  },
+  {
+    "query": "Terdakwa melakukan kekerasan terhadap pegawai negeri yang menyebabkan luka",
+    "ground_truth": 1
+  },
+  {
+    "query": "Terdakwa melakukan penganiayaan yang mengakibatkan kematian",
+    "ground_truth": 20
+  },
+  {
+    "query": "Terdakwa dengan terang-terangan menggunakan kekerasan terhadap orang",
+    "ground_truth": 12
+  },
+  {
+    "query": "Terdakwa melakukan penggelapan barang karena hubungan kerja",
+    "ground_truth": 71
+  },
+  {
+    "query": "Terdakwa menghasut untuk melakukan perbuatan pidana di muka umum",
+    "ground_truth": 85
+  },
+  {
+    "query": "Terdakwa bersama-sama melakukan pengeroyokan yang menyebabkan luka",
+    "ground_truth": 90
+  }
+]

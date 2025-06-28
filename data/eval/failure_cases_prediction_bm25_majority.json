@@ -1,0 +1,26 @@
+[
+  {
+    "query": "nyata dakwa patuan hutapea sebut bukti cara yakin salah laku tindak pidana aniaya bagaimana dakwa tunggal tuntut umum jatuh pidana hadap dakwa patuan hutapea sebut pidana penjara lama 2 tahun tetap masa tangkap tahan jalan dakwa kurang seluruh pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu buah gunting milik gagang warna silver rampas musnah beban dakwa bayar biaya perkara besar rp 5000 lima ribu rupiah",
+    "ground_truth": "penjara 2",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa muhammad yudistira alias disti sebut atas bukti cara yakin salah laku tindak pidana aniaya akibat mati bagaimana dakwaanpertama jatuh pidana hadap dakwa pidana penjara lama 10 puluh tahun tetap masa tangkap tahan jalan dakwa kurang seluruh lama pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu buah senjata tajan jenis celurit gagang solasiban warna hitam 1 satu buah baju kaos warna hitam 1 satu buah celana pendek rampas musnah beban dakwa bayar biaya perkara jumlah rp300000 tiga ribu rupiah",
+    "ground_truth": "penjara 10",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa mhd reno ginting bukti cara yakin salah laku tindak pidana muka umum lisan hasut laku buat pidana bagaimana atur ancam pidana pasal 160 kuhpidana dakwa alternatif satu jatuh pidana dakwa mhd reno ginting pidana penjara lama 2 tahun tetap masa tangkap masa tahan jalan dakwa kurang seluruh pidana jatuh tetap dakwa tetap tahan perintah barang bukti upa 1 satu bilah parang gagang besi musnah 6 beban dakwa bayar biaya perkara jumlah rp5000 lima ribu rupiah",
+    "ground_truth": "penjara 2",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "1 nyata dakwa agung mangapul beston siagian sebut atas bukti cara yakin salah laku tindak pidana aniaya bagaimana dakwa tunggal tuntut umum2 jatuh pidana dakwa pidana penjara lama 1 satu tahun 5 lima bulan3 tetap masa tangkap tahan jalan dakwa kurang seluruh pidana dijatuhkan4 tetap dakwa tetap ditahan5 tetap barangbarang bukti upa 1 satu unit handphone merk iphone 14 pro max warna ungu sita sangka agung mangapul beston siagian polsek medan timur sesuai berita acara sita hari sabtu tanggal 28 maret 2024 sekira pukul 1330 wibdikembalikan dakwa agung mangapul beston siagian 1 satu buah flashdisk risi rekam cctvdisita an jennetha laurensia jl jawa no 05 medan laku sidik sesuai berita acara sita hari kamis tanggal 02 november 2023 pukul 1000 wib 1 satu buah flashdisk risi rekam cctvdisita saksi an daud roni situmeang jl jawa no 05 medan laku sidik sesuai berita acara sita hari kamis tanggal 02 november 2023 pukul 1100 wib 1 satu buah flashdisk risi rekam cctvdisita saksi an sinta jl jawa no 05 medan laku sidik sesuai berita acara sita hari kamis tanggal 02 november 2023 pukul 1200 wibmasingmasing lampir berkas perkara6 beban biaya perkara dakwa jumlah rp500000 lima ribu rupiah",
+    "ground_truth": "penjara 1",
+    "predicted": "penjara 7",
+    "reason": "Prediction mismatch"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "query": "nyata dakwa patuan hutapea sebut bukti cara yakin salah laku tindak pidana aniaya bagaimana dakwa tunggal tuntut umum jatuh pidana hadap dakwa patuan hutapea sebut pidana penjara lama 2 tahun tetap masa tangkap tahan jalan dakwa kurang seluruh pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu buah gunting milik gagang warna silver rampas musnah beban dakwa bayar biaya perkara besar rp 5000 lima ribu rupiah",
+    "ground_truth": "penjara 2",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  },
+  {
+    "query": "nyata dakwa muhammad yudistira alias disti sebut atas bukti cara yakin salah laku tindak pidana aniaya akibat mati bagaimana dakwaanpertama jatuh pidana hadap dakwa pidana penjara lama 10 puluh tahun tetap masa tangkap tahan jalan dakwa kurang seluruh lama pidana jatuh tetap dakwa tetap tahan tetap barang bukti upa 1 satu buah senjata tajan jenis celurit gagang solasiban warna hitam 1 satu buah baju kaos warna hitam 1 satu buah celana pendek rampas musnah beban dakwa bayar biaya perkara jumlah rp300000 tiga ribu rupiah",
+    "ground_truth": "penjara 10",
+    "predicted": "penjara 1",
+    "reason": "Prediction mismatch"
+  }
+]

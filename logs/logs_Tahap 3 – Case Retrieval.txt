@@ -1,0 +1,346 @@
+
+=== Evaluation Run on 2025-06-28 14:00:05.925730 ===
+
+=== Evaluation for BM25 ===
+Query: Terdakwa melakukan penganiayaan yang menyebabkan luka
+Top-5: [7, 79, 51, 28, 87]
+Scores: [5.4860177360702025, 5.407549967639458, 5.288512843250853, 5.16279541535525, 4.9849604213534]
+GT: 7
+Precision@5: 1
+MRR: 1.0000
+NDCG@5: 1.0000
+---
+Query: Terdakwa bersama-sama melakukan kekerasan terhadap orang di muka umum
+Top-5: [75, 25, 76, 40, 37]
+Scores: [9.884378795643297, 9.573269448772384, 9.523747443874148, 9.331816852798939, 9.331816852798939]
+GT: 6
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan penganiayaan berat yang mengakibatkan luka berat
+Top-5: [28, 87, 82, 14, 77]
+Scores: [12.356939605002125, 11.862315484014914, 11.654985426663032, 11.518134894732654, 11.300252216500759]
+GT: 14
+Precision@5: 1
+MRR: 0.2500
+NDCG@5: 0.4307
+---
+Query: Terdakwa turut serta dalam penganiayaan secara bersama-sama
+Top-5: [76, 59, 12, 37, 40]
+Scores: [6.9036353582849435, 6.7487489911719205, 6.429887300178696, 6.1604426435880715, 6.1604426435880715]
+GT: 5
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan kekerasan terhadap pegawai negeri yang menyebabkan luka
+Top-5: [1, 43, 49, 45, 75]
+Scores: [12.17038914914035, 10.985732693733102, 10.64447189504882, 10.64447189504882, 6.550028063707056]
+GT: 1
+Precision@5: 1
+MRR: 1.0000
+NDCG@5: 1.0000
+---
+Query: Terdakwa melakukan penganiayaan yang mengakibatkan kematian
+Top-5: [88, 24, 20, 21, 7]
+Scores: [8.956697833098925, 7.745993880649699, 7.63819516308406, 7.611454275511573, 5.310465581743155]
+GT: 20
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa dengan terang-terangan menggunakan kekerasan terhadap orang
+Top-5: [67, 4, 80, 50, 58]
+Scores: [12.43303724159672, 12.23194273453397, 4.531218198460693, 4.513013911678625, 4.513013911678625]
+GT: 12
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan penggelapan barang karena hubungan kerja
+Top-5: [45, 49, 71, 73, 74]
+Scores: [6.133658088806092, 6.133658088806092, 6.071892785931102, 6.071892785931102, 6.071892785931102]
+GT: 71
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa menghasut untuk melakukan perbuatan pidana di muka umum
+Top-5: [85, 50, 30, 47, 54]
+Scores: [14.591469133377583, 7.973575705405171, 7.673144807294678, 7.598079208597105, 7.570322794953337]
+GT: 85
+Precision@5: 1
+MRR: 1.0000
+NDCG@5: 1.0000
+---
+Query: Terdakwa bersama-sama melakukan pengeroyokan yang menyebabkan luka
+Top-5: [75, 76, 67, 4, 37]
+Scores: [8.116999424092926, 6.903635358284943, 6.362673364698089, 6.244809269391735, 6.160442643588071]
+GT: 90
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Mean Precision@5 (bm25): 0.6000
+Mean MRR (bm25): 0.3917
+Mean NDCG@5 (bm25): 0.4431
+==================================================
+
+=== Evaluation for TFIDF ===
+Query: Terdakwa melakukan penganiayaan yang menyebabkan luka
+Top-5: [64, 5, 7, 79, 17]
+Scores: [0.11302068178108807, 0.09761219092738521, 0.09573977266446959, 0.08857610805925481, 0.08664675407519042]
+GT: 7
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa bersama-sama melakukan kekerasan terhadap orang di muka umum
+Top-5: [76, 75, 50, 6, 30]
+Scores: [0.2451040433823695, 0.22841755914822803, 0.1957922847482803, 0.19564894478644432, 0.19240871955100242]
+GT: 6
+Precision@5: 1
+MRR: 0.2500
+NDCG@5: 0.4307
+---
+Query: Terdakwa melakukan penganiayaan berat yang mengakibatkan luka berat
+Top-5: [82, 28, 14, 87, 77]
+Scores: [0.19751135312119353, 0.18979304100396788, 0.15963583140437912, 0.15577965019578152, 0.15051594246539948]
+GT: 14
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa turut serta dalam penganiayaan secara bersama-sama
+Top-5: [76, 40, 37, 33, 59]
+Scores: [0.08272547172860553, 0.08262465534090037, 0.08262465534090037, 0.07825300337271307, 0.07781454395413687]
+GT: 5
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan kekerasan terhadap pegawai negeri yang menyebabkan luka
+Top-5: [1, 43, 49, 45, 75]
+Scores: [0.34479145003008616, 0.2006127091327446, 0.1421628814652128, 0.1421628814652128, 0.08339499725797563]
+GT: 1
+Precision@5: 1
+MRR: 1.0000
+NDCG@5: 1.0000
+---
+Query: Terdakwa melakukan penganiayaan yang mengakibatkan kematian
+Top-5: [88, 24, 20, 21, 7]
+Scores: [0.29837914743998867, 0.17661015075326328, 0.1688153404458064, 0.16126743795193807, 0.08872063297951152]
+GT: 20
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa dengan terang-terangan menggunakan kekerasan terhadap orang
+Top-5: [67, 4, 82, 6, 80]
+Scores: [0.16027337692973645, 0.15577655545664965, 0.08914686062162026, 0.0882711788647404, 0.08781885830689826]
+GT: 12
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan penggelapan barang karena hubungan kerja
+Top-5: [74, 71, 73, 45, 49]
+Scores: [0.0853215049363613, 0.0853215049363613, 0.0853215049363613, 0.05516748948077818, 0.05516748948077818]
+GT: 71
+Precision@5: 1
+MRR: 0.5000
+NDCG@5: 0.6309
+---
+Query: Terdakwa menghasut untuk melakukan perbuatan pidana di muka umum
+Top-5: [85, 6, 50, 30, 47]
+Scores: [0.3169592044788411, 0.1186501377876387, 0.11744496244289414, 0.11668512248398955, 0.10785737991160965]
+GT: 85
+Precision@5: 1
+MRR: 1.0000
+NDCG@5: 1.0000
+---
+Query: Terdakwa bersama-sama melakukan pengeroyokan yang menyebabkan luka
+Top-5: [75, 76, 36, 37, 40]
+Scores: [0.1275486110086819, 0.11974957624471778, 0.08466005112192823, 0.0611316203196971, 0.0611316203196971]
+GT: 90
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Mean Precision@5 (tfidf): 0.7000
+Mean MRR (tfidf): 0.3750
+Mean NDCG@5 (tfidf): 0.4562
+==================================================
+
+=== Evaluation for BERT ===
+Query: Terdakwa melakukan penganiayaan yang menyebabkan luka
+Top-5: [62, 7, 57, 72, 64]
+Scores: [0.8239065, 0.8228434, 0.82138205, 0.820264, 0.81936216]
+GT: 7
+Precision@5: 1
+MRR: 0.5000
+NDCG@5: 0.6309
+---
+Query: Terdakwa bersama-sama melakukan kekerasan terhadap orang di muka umum
+Top-5: [75, 76, 37, 33, 36]
+Scores: [0.8721978, 0.87041104, 0.8701367, 0.86896884, 0.8688796]
+GT: 6
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan penganiayaan berat yang mengakibatkan luka berat
+Top-5: [7, 28, 62, 72, 84]
+Scores: [0.88440156, 0.8839184, 0.8835633, 0.88209426, 0.8809047]
+GT: 14
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa turut serta dalam penganiayaan secara bersama-sama
+Top-5: [72, 62, 7, 84, 57]
+Scores: [0.8604189, 0.8598014, 0.85951936, 0.85771143, 0.8567337]
+GT: 5
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan kekerasan terhadap pegawai negeri yang menyebabkan luka
+Top-5: [33, 62, 72, 37, 80]
+Scores: [0.85755026, 0.8569387, 0.8568591, 0.85651344, 0.85599864]
+GT: 1
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan penganiayaan yang mengakibatkan kematian
+Top-5: [7, 72, 88, 28, 62]
+Scores: [0.87309206, 0.8707959, 0.87009084, 0.86980015, 0.86920536]
+GT: 20
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa dengan terang-terangan menggunakan kekerasan terhadap orang
+Top-5: [75, 33, 37, 40, 76]
+Scores: [0.83877087, 0.8381089, 0.8361126, 0.8358309, 0.83290845]
+GT: 12
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan penggelapan barang karena hubungan kerja
+Top-5: [62, 75, 82, 39, 37]
+Scores: [0.83035433, 0.82667863, 0.82542485, 0.8252232, 0.8251575]
+GT: 71
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa menghasut untuk melakukan perbuatan pidana di muka umum
+Top-5: [7, 62, 72, 28, 36]
+Scores: [0.8698424, 0.86544085, 0.86531794, 0.86492217, 0.8640851]
+GT: 85
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa bersama-sama melakukan pengeroyokan yang menyebabkan luka
+Top-5: [62, 76, 70, 21, 5]
+Scores: [0.8699307, 0.8687283, 0.868557, 0.86812353, 0.8679322]
+GT: 90
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Mean Precision@5 (bert): 0.1000
+Mean MRR (bert): 0.0500
+Mean NDCG@5 (bert): 0.0631
+==================================================
+
+=== Evaluation for NB ===
+Query: Terdakwa melakukan penganiayaan yang menyebabkan luka
+Top-5: [64, 5, 7, 79, 17]
+Scores: [0.11302068178108807, 0.09761219092738521, 0.09573977266446959, 0.08857610805925481, 0.08664675407519042]
+GT: 7
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa bersama-sama melakukan kekerasan terhadap orang di muka umum
+Top-5: [76, 75, 50, 6, 30]
+Scores: [0.2451040433823695, 0.22841755914822803, 0.1957922847482803, 0.19564894478644432, 0.19240871955100242]
+GT: 6
+Precision@5: 1
+MRR: 0.2500
+NDCG@5: 0.4307
+---
+Query: Terdakwa melakukan penganiayaan berat yang mengakibatkan luka berat
+Top-5: [82, 28, 14, 87, 77]
+Scores: [0.19751135312119353, 0.18979304100396788, 0.15963583140437912, 0.15577965019578152, 0.15051594246539948]
+GT: 14
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa turut serta dalam penganiayaan secara bersama-sama
+Top-5: [76, 40, 37, 33, 59]
+Scores: [0.08272547172860553, 0.08262465534090037, 0.08262465534090037, 0.07825300337271307, 0.07781454395413687]
+GT: 5
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan kekerasan terhadap pegawai negeri yang menyebabkan luka
+Top-5: [1, 43, 45, 49, 75]
+Scores: [0.34479145003008616, 0.2006127091327446, 0.1421628814652128, 0.1421628814652128, 0.08339499725797563]
+GT: 1
+Precision@5: 1
+MRR: 1.0000
+NDCG@5: 1.0000
+---
+Query: Terdakwa melakukan penganiayaan yang mengakibatkan kematian
+Top-5: [88, 24, 20, 21, 7]
+Scores: [0.29837914743998867, 0.17661015075326328, 0.1688153404458064, 0.16126743795193807, 0.08872063297951152]
+GT: 20
+Precision@5: 1
+MRR: 0.3333
+NDCG@5: 0.5000
+---
+Query: Terdakwa dengan terang-terangan menggunakan kekerasan terhadap orang
+Top-5: [67, 4, 82, 6, 80]
+Scores: [0.16027337692973645, 0.15577655545664965, 0.08914686062162026, 0.0882711788647404, 0.08781885830689826]
+GT: 12
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa melakukan penggelapan barang karena hubungan kerja
+Top-5: [45, 49, 40, 37, 33]
+Scores: [0.05516748948077818, 0.05516748948077818, 0.020639513179400232, 0.020639513179400232, 0.019547481169815705]
+GT: 71
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Query: Terdakwa menghasut untuk melakukan perbuatan pidana di muka umum
+Top-5: [85, 6, 50, 30, 47]
+Scores: [0.3169592044788411, 0.1186501377876387, 0.11744496244289414, 0.11668512248398955, 0.10785737991160965]
+GT: 85
+Precision@5: 1
+MRR: 1.0000
+NDCG@5: 1.0000
+---
+Query: Terdakwa bersama-sama melakukan pengeroyokan yang menyebabkan luka
+Top-5: [75, 76, 36, 37, 40]
+Scores: [0.1275486110086819, 0.11974957624471778, 0.08466005112192823, 0.0611316203196971, 0.0611316203196971]
+GT: 90
+Precision@5: 0
+MRR: 0.0000
+NDCG@5: 0.0000
+---
+Mean Precision@5 (nb): 0.6000
+Mean MRR (nb): 0.3250
+Mean NDCG@5 (nb): 0.3931
+==================================================
