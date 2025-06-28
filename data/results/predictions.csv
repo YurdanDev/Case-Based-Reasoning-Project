@@ -1,6 +1,7 @@
-query_id,predicted_solution,top_5_case_ids
-1,penjara 3,"64,5,66,70,17"
-2,penjara 3,"82,75,28,76,14"
-3,penjara 1,"60,53,18,63,39"
-4,penjara 2,"6,30,8,76,80"
-5,penjara 2,"32,6,80,50,30"
+query_id,query,predicted_solution,top_5_case_ids,scores,ground_truth
+1,Terdakwa melakukan penganiayaan ringan tanpa luka di tempat umum,penjara 1 tahun,"7,64,28,5,66","0.116279,0.104226,0.091250,0.090016,0.089899",penjara 1 tahun
+2,Terdakwa bersama-sama melakukan pengeroyokan menyebabkan luka berat,penjara 3 tahun,"82,75,28,76,14","0.111617,0.109076,0.104084,0.102407,0.087545",penjara 3 tahun
+3,Terdakwa melakukan penggelapan dalam jabatan senilai 10 juta,None,"6,8,13,36,21","0.079573,0.077702,0.058552,0.053642,0.052037",penjara 1 tahun
+4,Terdakwa menghasut orang untuk melakukan kekerasan,penjara 2 tahun,"6,30,8,76,80","0.100095,0.098438,0.097742,0.095444,0.094263",penjara 2 tahun
+5,Terdakwa melakukan kekerasan berat terhadap anak di bawah umur,penjara 2 tahun,"32,82,80,50,6","0.132259,0.100960,0.082887,0.082187,0.081057",penjara 5 tahun
+6,Terdakwa membantu tetangga menyeberang jalan,penjara 1 tahun,"60,53,18,39,88","0.133298,0.121587,0.117287,0.112479,0.104430",None
